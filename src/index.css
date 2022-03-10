@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  margin-top: 100px;
+  text-align: left;
+}
+table, tr, th, td {
+  border: 1px solid #1f1f1f;
+  border-collapse: collapse;
+  padding: 1rem 1.5rem;
+}
+tr th:first-child, 
+tr td:first-child {
+  width: 30%;
+  background-color: pink;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  background-color: cornflowerblue;
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+}
