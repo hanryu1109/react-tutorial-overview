@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import '../src/index.css'
+import React from 'react';
 
 const TableHeader = () => {
     return (
@@ -10,7 +9,7 @@ const TableHeader = () => {
                 <th>Remove</th>
             </tr>
         </thead>
-    )
+    );
 }
 
 const TableBody = (props) => {
